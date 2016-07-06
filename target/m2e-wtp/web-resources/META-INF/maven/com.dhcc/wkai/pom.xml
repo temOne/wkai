@@ -97,6 +97,15 @@
 
     </properties>
     
+    <!-- 设定主仓库，按设定顺序进行查找。 -->
+    <repositories>
+        <repository>
+            <id>mvn-mas</id>
+            <name>Team Nexus Of MAS</name>
+            <url>http://mvn.dhc.im:8181/content/groups/nmnxgroup/</url>
+        </repository>
+    </repositories>
+    
    <dependencies>
     <!-- JavaWeb基础 begin -->
         <dependency>
